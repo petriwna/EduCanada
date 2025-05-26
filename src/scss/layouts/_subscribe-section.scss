@@ -43,6 +43,8 @@
   }
 
   &__form {
+    position: relative;
+    z-index: 1;
     width: 100%;
 
     @media screen and (min-width: $bp-tablet) {
