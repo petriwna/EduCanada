@@ -1,0 +1,21 @@
+:root {
+  --primary: #edf3ff;
+
+  --color-accent: #0a66c2;
+  --color-accent-orang: #f4a120;
+  --color-accent-light: #edf3ff;
+
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-text-primary: #002d59;
+  --color-text-primary-grey: #464646;
+  --color-text-second: #222;
+  --color-text-second-light: #666;
+
+  --font-family: "Poppins", sans-serif;
+}
+
+$bp-mobile: 480px;
+$bp-tablet: 768px;
+$bp-min-desktop: 992px;
+$bp-desktop: 1280px;

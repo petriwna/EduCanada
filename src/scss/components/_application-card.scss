@@ -1,0 +1,9 @@
+.application-card {
+  display: flex;
+  gap: 26px;
+
+  &__done {
+    height: 28px;
+    width: 28px;
+  }
+}

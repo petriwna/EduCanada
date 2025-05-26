@@ -1,0 +1,19 @@
+.link {
+  color: var(--color-text-second);
+  text-decoration: none;
+  transition: color 0.3s;
+  font-weight: 500;
+
+  &:hover {
+    color: var(--color-accent);
+  }
+
+  &--content {
+    color: var(--color-accent);
+    text-decoration: underline;
+
+    &:hover {
+      color: var(--color-text-primary-light);
+    }
+  }
+}

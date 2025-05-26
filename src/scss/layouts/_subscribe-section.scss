@@ -1,0 +1,52 @@
+.subscribe-section {
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-accent);
+    gap: 24px;
+    border-radius: 84px;
+    padding: 25px 47px;
+    position: relative;
+    overflow: hidden;
+
+    &:before {
+      display: block;
+      content: '';
+      position: absolute;
+      background-image: url("../../public/images/form-decor.png");
+      bottom: 0;
+      left: 0;
+      height: 280px;
+      width: 371px;
+    }
+
+    &:after {
+      display: block;
+      content: '';
+      position: absolute;
+      background-image: url("../../public/images/decor-form.png");
+      right: 0;
+      height: 89px;
+      width: 89px;
+    }
+  }
+
+  &__title {
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+    margin: 0;
+  }
+
+  &__form {
+    width: 100%;
+
+    @media screen and (min-width: $bp-tablet) {
+      width: 50%;
+    }
+  }
+}

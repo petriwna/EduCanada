@@ -1,0 +1,18 @@
+.application-section {
+  padding-bottom: 0!important;
+
+  &__container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+    align-items: center;
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row;
+    }
+  }
+
+  &__img {
+    width: 50%;
+  }
+}
