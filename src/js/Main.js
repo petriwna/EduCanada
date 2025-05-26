@@ -4,7 +4,9 @@ export class Main {
         this.menuBtnOpen = document.querySelector('.menu-btn-open');
         this.menuBtnClose = document.querySelector('.menu-btn-close');
 
-        this.addEventListeners();
+        if (this.mobileMenu && this.menuBtnOpen && this.menuBtnClose) {
+            this.addEventListeners();
+        }
     }
 
     addEventListeners() {
@@ -24,11 +26,5 @@ export class Main {
 
     disableScroll() {
         document.body.classList.toggle('is-scroll-disable');
-    }
-
-    handleFormSubmit(event) {
-        event.preventDefault();
-
-        window.location.href = 'thank-you.html';
     }
 }
